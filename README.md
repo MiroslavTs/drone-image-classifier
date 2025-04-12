@@ -15,6 +15,13 @@ Instead of training a model from scratch, we use a pre-trained model called **Mo
 We use **TensorFlow/Keras** to load images, prepare the data, build the model, train it, and evaluate how well it performs.
 
 ---
+### Why I Used MobileNetV2
+
+Instead of building a convolutional neural network (CNN) from scratch, I used a pre-trained model called MobileNetV2. This model has already been trained on millions of images and knows how to recognize general shapes and patterns.
+
+MobileNetV2 is designed to be small, fast, and efficient — perfect for situations where we don’t have huge datasets or powerful hardware. It allowed me to reuse its knowledge and simply fine-tune the last part of the network to classify drone images. This is called **transfer learning**, and it's a common technique when working with real-world data.
+
+---
 
 ## Dataset Structure
 
