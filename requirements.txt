@@ -1,0 +1,7 @@
+tensorflow>=2.11.0
+numpy
+matplotlib
+scikit-learn
+notebook
+
+Watch out for the Python version, don`t use higher than python 3.11
